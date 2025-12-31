@@ -1,0 +1,21 @@
+{
+  "name": "glm-derleyici",
+  "version": "1.0.0",
+  "description": "GLM programlama dili derleyicisi - Türkçe sözdizimli, Python, JavaScript ve Kotlin özelliklerini harmanlayan transpiler",
+  "main": "src/ana.js",
+  "bin": {
+    "glm": "./bin/glm.js"
+  },
+  "scripts": {
+    "test": "node test/test.js",
+    "repl": "node bin/glm-repl.js",
+    "build": "echo 'Derleme tamamlandı'"
+  },
+  "keywords": ["transpiler", "programming-language", "turkish-syntax", "glm"],
+  "author": "38mehmet38",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}

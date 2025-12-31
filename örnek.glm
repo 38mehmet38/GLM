@@ -1,0 +1,9 @@
+sabit dükkan = "Mehmet Cloud"
+işlev selamla(isim) {
+    yazdır("Selam " + isim + ", " + dükkan + " hazır!")
+}
+selamla("Şefim")
+
+// Terminal komutu örneği
+yazdır("Şu anki dizin:")
+yazdır(çalıştır("pwd"))

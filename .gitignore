@@ -1,0 +1,7 @@
+node_modules/
+*.js
+!bin/glm.js
+!src/transpiler.js
+!test/test.js
+örnek.js
+minecraft/*.js
